@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const urlController = require('../controllers/UrlController'); // Fix the file name to match the actual file name
+const urlController = require('../controllers/urlController'); // Fix the file name to match the actual file name
 
 // Route for URL shortening
 router.post('/shorten', urlController.shortenUrl);
