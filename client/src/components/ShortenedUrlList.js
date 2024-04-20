@@ -25,9 +25,9 @@ const ShortenedUrlList = () => {
   
 
   return (
-    <div className="mt-8">
-      <h2 className="text-lg font-semibold">Shortened URLs:</h2>
+    <div className="mt-8 text-center lg:w-2/3 m-auto">
       <Form onShorten={handleNewUrl} /> {/* Pass the callback function */}
+      <h2 className="text-lg font-semibold my-8">Shortened URLs:</h2>
       <ul className="mt-2">
         {urls.map((url) => (
           <li key={url._id} className="mt-2 shadow p-2 bg-green-50 rounded">
