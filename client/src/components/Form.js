@@ -18,7 +18,7 @@ const Form = ({ onShorten }) => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="mt-4">
+    <form onSubmit={handleSubmit} className="my-4 text-center lg:w-2/3 m-auto">
       <input
         type="text"
         placeholder="Enter URL to shorten"
